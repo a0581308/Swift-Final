@@ -8,13 +8,23 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController
+{
 
-    override func viewDidLoad() {
+    override func viewDidLoad()
+    {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
-
-
+    // This is the "Please enter start amount" text field.
+    // This is also the Starting money amount the bills will subtract from.
+    @IBOutlet weak var payCheck: UITextField!
+    
+    // This will add a new bill to the UIScrollView.
+    @IBAction func newBill(_ sender: Any)
+    {
+       UITableView.cellForRow(<#T##UITableView#>)
+    }
+    
 }
 
