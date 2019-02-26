@@ -14,6 +14,7 @@
 		3F293328221EF1BC000DCA5C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F293326221EF1BC000DCA5C /* LaunchScreen.storyboard */; };
 		3F293333221EF1BC000DCA5C /* Swift_FinalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F293332221EF1BC000DCA5C /* Swift_FinalTests.swift */; };
 		3F29333E221EF1BC000DCA5C /* Swift_FinalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F29333D221EF1BC000DCA5C /* Swift_FinalUITests.swift */; };
+		3FED31582225BCD500BB3B72 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FED31572225BCD500BB3B72 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		3F293339221EF1BC000DCA5C /* Swift FinalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift FinalUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F29333D221EF1BC000DCA5C /* Swift_FinalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_FinalUITests.swift; sourceTree = "<group>"; };
 		3F29333F221EF1BC000DCA5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FED31572225BCD500BB3B72 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SecondViewController.swift; path = "Swift Final/SecondViewController.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		3F293311221EF1BB000DCA5C = {
 			isa = PBXGroup;
 			children = (
+				3FED31572225BCD500BB3B72 /* SecondViewController.swift */,
 				3F29331C221EF1BB000DCA5C /* Swift Final */,
 				3F293331221EF1BC000DCA5C /* Swift FinalTests */,
 				3F29333C221EF1BC000DCA5C /* Swift FinalUITests */,
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FED31582225BCD500BB3B72 /* SecondViewController.swift in Sources */,
 				3F293320221EF1BB000DCA5C /* ViewController.swift in Sources */,
 				3F29331E221EF1BB000DCA5C /* AppDelegate.swift in Sources */,
 			);
